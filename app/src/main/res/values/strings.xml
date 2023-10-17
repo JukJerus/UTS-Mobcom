@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UTSMobcom</string>
+    <string name="matkul1">Teori Informasi</string>
+    <string name="sks1">2 SKS</string>
+    <string name="matkul2">Wawasan Pendidikan</string>
+    <string name="sks2">1 SKS</string>
+    <string name="matkul3">Data Mining</string>
+    <string name="sks3">3 SKS</string>
+    <string name="matkul4">Mobile Computing</string>
+    <string name="sks4">3 SKS</string>
+    <string name="matkul5">HCI</string>
+    <string name="sks5">8 SKS</string>
+    <string name="matkul6">PPW</string>
+    <string name="sks6">5 SKS</string>
+    <string name="matkul7">Basis Data</string>
+    <string name="sks7">1 SKS</string>
+    <string name="matkul8">Sistem Operasi</string>
+    <string name="sks8">2 SKS</string>
+    <string name="matkul9">HCI</string>
+    <string name="sks9">5 SKS</string>
+    <string name="matkul10">Etika Profesi</string>
+    <string name="sks10">1 SKS</string>
+</resources>

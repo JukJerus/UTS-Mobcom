@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = Color(0xFFEBE5D9)
+                    color = Color(0xFFffcd4f)
                 ) {
                     UTSMobcom()
                 }
@@ -56,7 +56,12 @@ class MainActivity : ComponentActivity() {
 fun UTSMobcom() {
     Column {
         CenterAlignedTopAppBar(
-            title = { Text(text = "KRS Semester 119") },
+            title =
+            {
+                Text(text = "KRS Semester 119",
+                    color = Color(0xffffcd4f),
+                    fontWeight = FontWeight.Bold)
+            },
             modifier = Modifier
                 .fillMaxWidth()
         )
@@ -72,7 +77,6 @@ fun ListMatkul(matkul: List<Matkul>) {
                 matkul = matkul[it],
                 modifier = Modifier
                     .padding(8.dp)
-                    .fillMaxWidth()
             )
         }
     }
@@ -81,7 +85,7 @@ fun ListMatkul(matkul: List<Matkul>) {
 @Composable
 fun CardMatkul(matkul: Matkul, modifier: Modifier = Modifier) {
     Card(modifier = modifier, colors = CardDefaults.cardColors(
-        containerColor = Color(0xFFF3EFE8),
+        containerColor = Color(0xFFffcd4f),
     )) {
         Row(
             modifier = modifier

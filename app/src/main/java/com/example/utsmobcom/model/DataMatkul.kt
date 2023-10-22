@@ -55,6 +55,5 @@ object DataMatkul {
             sks = R.string.sks10,
             image = R.drawable.pengantar_tik
         ),
-
     )
 }
